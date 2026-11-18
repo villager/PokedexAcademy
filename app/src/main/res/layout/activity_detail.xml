@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+ <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="24dp">
+  <TextView android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Cargando" android:textStyle="bold" android:textSize="30sp" />
+  <ImageView android:id="@+id/hero" android:layout_width="match_parent" android:layout_height="220dp" android:contentDescription="Ilustración del Pokémon" />
+  <TextView android:id="@+id/types" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="18sp" android:padding="6dp" />
+  <TextView android:id="@+id/abilities" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="18sp" android:padding="6dp" />
+  <TextView android:id="@+id/dimensions" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="18sp" android:padding="6dp" />
+  <com.google.android.material.button.MaterialButton android:id="@+id/favoriteButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Agregar a favoritos" />
+  <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Estadísticas" android:textSize="23sp" android:textStyle="bold" android:layout_marginTop="16dp" />
+  <TextView android:id="@+id/stats" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="8dp" android:textSize="16sp" />
+  <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="HP" />
+  <ProgressBar android:id="@+id/hpBar" style="?android:attr/progressBarStyleHorizontal" android:layout_width="match_parent" android:layout_height="16dp" android:max="255" />
+  <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ataque" />
+  <ProgressBar android:id="@+id/attackBar" style="?android:attr/progressBarStyleHorizontal" android:layout_width="match_parent" android:layout_height="16dp" android:max="255" />
+  <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Defensa" />
+  <ProgressBar android:id="@+id/defenseBar" style="?android:attr/progressBarStyleHorizontal" android:layout_width="match_parent" android:layout_height="16dp" android:max="255" />
+ </LinearLayout>
+</ScrollView>

@@ -1,0 +1,6 @@
+<resources>
+    <style name="Theme.Pokedex" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#D73545</item><item name="colorPrimaryVariant">#A91F32</item><item name="colorOnPrimary">#FFFFFF</item>
+        <item name="android:statusBarColor">#A91F32</item>
+    </style>
+</resources>

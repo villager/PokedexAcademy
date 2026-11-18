@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="150dp" android:layout_height="match_parent" android:layout_marginEnd="10dp" android:orientation="vertical" android:gravity="center" android:background="#F6E9ED" android:padding="8dp">
+ <ImageView android:id="@+id/pokemonImage" android:layout_width="104dp" android:layout_height="104dp" android:contentDescription="Imagen del Pokémon" />
+ <TextView android:id="@+id/pokemonName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textStyle="bold" android:textColor="#222222" />
+</LinearLayout>
